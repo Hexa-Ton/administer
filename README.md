@@ -10,16 +10,16 @@
 > explicit, documented permission to test. See [SECURITY.md](SECURITY.md).
 
 ```
-$ administer scan panelbajar.com
+$ administer scan authorized website
 administer v1.0.0
-target:   https://panelbajar.com
+target:   https://your-authorized.com
 wordlist: built-in (1800 paths)
 engines:  20
 scanning...
 [engine 001] /admin                         -> 302 -> https://panelbajar.com/admin/login (372ms)
 [engine 005] /control                       -> cancelled (scan already stopped)
 ...
-[FOUND] https://panelbajar.com/admin/login
+[FOUND] https://your-authorized.com/admin/login
 checked 28/1800 paths in 392ms
 ```
 
