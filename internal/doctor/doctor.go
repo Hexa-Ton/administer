@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/config"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/ui"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/version"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/wordlist"
+	"github.com/Hexa-Ton/administer/internal/config"
+	"github.com/Hexa-Ton/administer/internal/ui"
+	"github.com/Hexa-Ton/administer/internal/version"
+	"github.com/Hexa-Ton/administer/internal/wordlist"
 )
 
 // expectedBuiltinPaths is the size the built-in wordlist must have.

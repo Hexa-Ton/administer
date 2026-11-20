@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/classify"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/engine"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/netx"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/scheduler"
+	"github.com/Hexa-Ton/administer/internal/classify"
+	"github.com/Hexa-Ton/administer/internal/engine"
+	"github.com/Hexa-Ton/administer/internal/netx"
+	"github.com/Hexa-Ton/administer/internal/scheduler"
 )
 
 // hitCounter records how many times each path was requested.

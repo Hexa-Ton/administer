@@ -2,7 +2,7 @@
 
 **Concurrent web path & admin-panel discovery — Go engine, Python wordlist tooling.**
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/administer/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/administer/actions/workflows/ci.yml)
+[![CI](https://github.com/Hexa-Ton/administer/actions/workflows/ci.yml/badge.svg)](https://github.com/Hexa-Ton/administer/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go 1.21+](https://img.shields.io/badge/go-1.21%2B-00ADD8.svg)](go.mod)
 
@@ -55,13 +55,24 @@ scrollback.
 
 ## Install
 
+### Linux (including Kali) / macOS
+
+```sh
+git clone https://github.com/Hexa-Ton/administer.git
+cd administer
+go build -o administer .
+sudo mv administer /usr/local/bin/   # or anywhere on your PATH
+
+administer doctor
+```
+
 ### Termux (Android)
 
 ```sh
 pkg update && pkg upgrade -y
 pkg install golang git -y
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/administer.git
+git clone https://github.com/Hexa-Ton/administer.git
 cd administer
 go build -o administer .
 
@@ -73,19 +84,10 @@ source ~/.bashrc
 administer doctor
 ```
 
-### Linux / macOS
-
-```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/administer.git
-cd administer
-go build -o administer .
-sudo mv administer /usr/local/bin/   # or anywhere on your PATH
-```
-
 ### Go install
 
 ```sh
-go install github.com/YOUR_GITHUB_USERNAME/administer@latest
+go install github.com/Hexa-Ton/administer@latest
 ```
 
 ## Usage

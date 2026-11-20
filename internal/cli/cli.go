@@ -12,13 +12,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/config"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/doctor"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/scan"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/ui"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/urlutil"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/version"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/wordlist"
+	"github.com/Hexa-Ton/administer/internal/config"
+	"github.com/Hexa-Ton/administer/internal/doctor"
+	"github.com/Hexa-Ton/administer/internal/scan"
+	"github.com/Hexa-Ton/administer/internal/ui"
+	"github.com/Hexa-Ton/administer/internal/urlutil"
+	"github.com/Hexa-Ton/administer/internal/version"
+	"github.com/Hexa-Ton/administer/internal/wordlist"
 )
 
 // Exit codes. Scripts can rely on these.

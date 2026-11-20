@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/classify"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/engine"
+	"github.com/Hexa-Ton/administer/internal/classify"
+	"github.com/Hexa-Ton/administer/internal/engine"
 )
 
 type Reason int

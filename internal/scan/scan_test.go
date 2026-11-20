@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/report"
+	"github.com/Hexa-Ton/administer/internal/report"
 )
 
 // adminServer answers /admin with a redirect to /admin/login and everything

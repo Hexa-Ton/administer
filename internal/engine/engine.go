@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/classify"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/netx"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/urlutil"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/version"
+	"github.com/Hexa-Ton/administer/internal/classify"
+	"github.com/Hexa-Ton/administer/internal/netx"
+	"github.com/Hexa-Ton/administer/internal/urlutil"
+	"github.com/Hexa-Ton/administer/internal/version"
 )
 
 // Engine is one concurrent execution unit: it fetches a single path,

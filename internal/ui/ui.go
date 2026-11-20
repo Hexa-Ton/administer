@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/config"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/engine"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/scheduler"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/version"
+	"github.com/Hexa-Ton/administer/internal/config"
+	"github.com/Hexa-Ton/administer/internal/engine"
+	"github.com/Hexa-Ton/administer/internal/scheduler"
+	"github.com/Hexa-Ton/administer/internal/version"
 )
 
 const (

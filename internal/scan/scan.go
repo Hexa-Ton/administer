@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/classify"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/engine"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/netx"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/report"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/scheduler"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/ui"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/urlutil"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/version"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/wordlist"
+	"github.com/Hexa-Ton/administer/internal/classify"
+	"github.com/Hexa-Ton/administer/internal/engine"
+	"github.com/Hexa-Ton/administer/internal/netx"
+	"github.com/Hexa-Ton/administer/internal/report"
+	"github.com/Hexa-Ton/administer/internal/scheduler"
+	"github.com/Hexa-Ton/administer/internal/ui"
+	"github.com/Hexa-Ton/administer/internal/urlutil"
+	"github.com/Hexa-Ton/administer/internal/version"
+	"github.com/Hexa-Ton/administer/internal/wordlist"
 )
 
 // builtinLabel is shown (and recorded in reports) when no -w file is given.

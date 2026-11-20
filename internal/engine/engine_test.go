@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/classify"
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/netx"
+	"github.com/Hexa-Ton/administer/internal/classify"
+	"github.com/Hexa-Ton/administer/internal/netx"
 )
 
 func newTestEngine(t *testing.T, base string) *Engine {

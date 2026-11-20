@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/internal/cli"
+	"github.com/Hexa-Ton/administer/internal/cli"
 )
 
 func main() {

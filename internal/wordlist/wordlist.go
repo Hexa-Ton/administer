@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/YOUR_GITHUB_USERNAME/administer/wordlists"
+	"github.com/Hexa-Ton/administer/wordlists"
 )
 
 // MandatorySix is the required priority order for the first six
