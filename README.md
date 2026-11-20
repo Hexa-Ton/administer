@@ -16,7 +16,7 @@ target:   https://your-authorized.com
 wordlist: built-in (1800 paths)
 engines:  20
 scanning...
-[engine 001] /admin                         -> 302 -> https://panelbajar.com/admin/login (372ms)
+[engine 001] /admin                         -> 302 -> https://your-authorized.com/admin/login (372ms)
 [engine 005] /control                       -> cancelled (scan already stopped)
 ...
 [FOUND] https://your-authorized.com/admin/login
